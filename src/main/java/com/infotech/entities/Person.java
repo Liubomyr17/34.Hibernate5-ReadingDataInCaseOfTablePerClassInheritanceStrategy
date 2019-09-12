@@ -5,13 +5,11 @@ import javax.persistence.*;
 
     @Entity
     @Table(name="person_table")
-    @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-    @DiscriminatorColumn(name = "record_type", discriminatorType = DiscriminatorType.STRING)
-    @DiscriminatorValue(value = "person_type")
+    @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
     public class Person {
 
         @Id
-        @GeneratedValue(strategy= GenerationType.IDENTITY)
+        @GeneratedValue(strategy= GenerationType.AUTO)
         @Column(name="id")
         private int id;
 
@@ -38,6 +36,15 @@ import javax.persistence.*;
         }
         public void setGender(String gender) {
             this.gender = gender;
+        }
+
+        @Override
+        public String toString() {
+            return "Person{" +
+                    "id=" + id +
+                    ", name='" + name + '\'' +
+                    ", gender='" + gender + '\'' +
+                    '}';
         }
     }
 

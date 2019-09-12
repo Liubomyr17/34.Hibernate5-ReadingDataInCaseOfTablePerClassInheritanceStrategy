@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a61e0131-8c56-4da4-a0c7-e79594773b6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/infotech/entities/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/infotech/entities/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/infotech/client/FetchDataClientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/4a659e41-f32e-4e43-bddb-ac6a8130d9fb.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4a659e41-f32e-4e43-bddb-ac6a8130d9fb.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/infotech/client/DeleteDataClientTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/infotech/client/FetchDataClientTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/infotech/client/SaveDataClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/infotech/client/SaveDataClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/infotech/entities/Address.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/infotech/entities/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/infotech/entities/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/infotech/util/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/infotech/util/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/infotech/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/infotech/entities/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/infotech/entities/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/infotech/entities/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/infotech/client/DeleteDataClientTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/infotech/client/FetchDataClientTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/infotech/client/SaveDataClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/infotech/client/SaveDataClientTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/infotech/entities/Address.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/infotech/entities/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/infotech/entities/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/infotech/util/HibernateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/infotech/util/HibernateUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/infotech/entities/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/infotech/entities/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/infotech/entities/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/infotech/entities/Student.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,7 +76,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../35.Hibernate5-ReadingDataInCaseOfJoinedInheritanceStrategy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -104,7 +97,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SaveDataClientTest">
+  <component name="RunManager" selected="Application.FetchDataClientTest">
     <configuration name="DeleteDataClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.infotech.client.DeleteDataClientTest" />
       <module name="HibernateSessionFactoryCreation" />
@@ -159,10 +152,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FetchDataClientTest" />
         <item itemvalue="Application.SaveDataClientTest" />
         <item itemvalue="Application.MergeDataClientTest" />
         <item itemvalue="Application.DeleteDataClientTest" />
-        <item itemvalue="Application.FetchDataClientTest" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +192,10 @@
       <workItem from="1568128281613" duration="3324000" />
       <workItem from="1568132155242" duration="2152000" />
       <workItem from="1568140634469" duration="3062000" />
+      <workItem from="1568277362424" duration="980000" />
+      <workItem from="1568280030504" duration="1899000" />
+      <workItem from="1568286862934" duration="3867000" />
+      <workItem from="1568312076288" duration="3624000" />
     </task>
     <servers />
   </component>

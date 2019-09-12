@@ -1,3 +1,3 @@
-# Single table inheritance strategy in hibernate
+# Joined inheritance strategy in hibernate
 
-Single table inheritance strategy in hibernate
+Joined inheritance strategy in hibernate
